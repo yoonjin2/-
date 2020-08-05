@@ -31,7 +31,7 @@ fwrite(bmpinfoheader,1,40,f);
 int i,ta,x;
 for(i=0;i<HEIGHT_WIDTH;i+=1)
     {
-        ta=100+(PI*i*10/180.0);
+        ta=100+(PI*i*50/180.0);
         for(x=0;x<ta;x++)
             {
                 rgb[x][i][0]=(unsigned char)255;
